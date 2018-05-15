@@ -1,0 +1,39 @@
+@font-face{
+
+    font-family: 'AvantGardeGothic';
+    
+    src: url('../fonts/AvantGardeGothicC.otf');
+    
+    src: url('../fonts/AvantGardeGothicC.otf?iefix') format('truetype');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+    }
+
+body{
+	background-image: url(../img/Back3.jpg);
+	
+	background-size: contain;
+}
+#Check {
+    margin:0 auto;
+    max-width: 500px;
+    min-height: 300px;
+    overflow: hidden;
+    padding: 20px;
+}
+#Check2 {
+    max-width: 100%;
+    height: auto;
+}
+#time{
+    margin:0 auto;
+	
+	font-size: 400%;
+	color: white;
+	text-align: center;
+    font-family: "AvantGardeGothic" ,fantasy;
+    text-shadow: 0px 0px 50px #d200ff;
+}
